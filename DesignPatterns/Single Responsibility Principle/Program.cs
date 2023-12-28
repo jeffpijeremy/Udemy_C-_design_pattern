@@ -3,6 +3,7 @@
 namespace DesignPatterns
 {
     //single Responsibilty Principle
+    //重點，文字生成跟存檔分開做
     public class Journal
     {
         private readonly List<string> entries = new List<string>();
