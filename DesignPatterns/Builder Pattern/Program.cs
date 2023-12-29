@@ -96,7 +96,7 @@ namespace Builder_Pattern
 
             var builder = new HtmlBuilder("ul");
             //fluent Interface
-            builder.AddChild("li", "hello").AddChild("li", "world"); ;
+            builder.AddChild("li", "hello").AddChild("li", "world"); 
             //builder.AddChild("li", "hello");
             //builder.AddChild("li", "world");
             Console.WriteLine(builder.ToString());
