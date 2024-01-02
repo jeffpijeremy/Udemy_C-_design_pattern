@@ -30,7 +30,7 @@
             => Do(p => p.Name =name);
     }
     //防止後續類別繼承此類別
-    #region 封裝方式的寫法
+    #region 
     //public sealed class PersonBuilder
     //{
     //    private readonly List<Func<Person,Person>> actions = 
