@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder Pattern", "Builder 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent Builder Inheritance with Recursive Generics", "Fluent Builder Inheritance with Recursive Generics\Fluent Builder Inheritance with Recursive Generics.csproj", "{D22024C5-991F-4401-9033-2D1C4829E7F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepwise Builder", "Stepwise Builder\Stepwise Builder.csproj", "{37BB0DD0-BC91-4703-8ADE-874DDDE3C692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D22024C5-991F-4401-9033-2D1C4829E7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D22024C5-991F-4401-9033-2D1C4829E7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D22024C5-991F-4401-9033-2D1C4829E7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BB0DD0-BC91-4703-8ADE-874DDDE3C692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BB0DD0-BC91-4703-8ADE-874DDDE3C692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BB0DD0-BC91-4703-8ADE-874DDDE3C692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BB0DD0-BC91-4703-8ADE-874DDDE3C692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
