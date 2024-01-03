@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fluent Builder Inheritance 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stepwise Builder", "Stepwise Builder\Stepwise Builder.csproj", "{37BB0DD0-BC91-4703-8ADE-874DDDE3C692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functional Builder", "Functional Builder\Functional Builder.csproj", "{902AEC1E-C812-49B4-A3E4-68A495999251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functional Builder", "Functional Builder\Functional Builder.csproj", "{902AEC1E-C812-49B4-A3E4-68A495999251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faceted Builder", "Faceted Builder\Faceted Builder.csproj", "{B8596669-6BB3-4013-8A6F-B6DEE32E7A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Faceted Builder", "Faceted Builder\Faceted Builder.csproj", "{B8596669-6BB3-4013-8A6F-B6DEE32E7A01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID_Principle", "SOLID_Principle", "{01213754-AE68-45F5-8729-81F24B903476}"
 EndProject
@@ -29,11 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder_Pattern", "Builder_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factories", "Factories", "{34EB71B6-6D38-4725-997C-DAE6647E7065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Point Example", "Point Example\Point Example.csproj", "{AAB432DC-23E4-405E-AF5B-E015B14884CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Point Example", "Point Example\Point Example.csproj", "{AAB432DC-23E4-405E-AF5B-E015B14884CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous Factory Method", "Asynchronous Factory Method\Asynchronous Factory Method.csproj", "{ECDFA8CF-6156-41EF-88FE-8006C69904D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous Factory Method", "Asynchronous Factory Method\Asynchronous Factory Method.csproj", "{ECDFA8CF-6156-41EF-88FE-8006C69904D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Tracking and Bulk Replacement", "Object Tracking and Bulk Replacement\Object Tracking and Bulk Replacement.csproj", "{07DB8544-CC0F-4285-9628-71894B36E50E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object Tracking and Bulk Replacement", "Object Tracking and Bulk Replacement\Object Tracking and Bulk Replacement.csproj", "{07DB8544-CC0F-4285-9628-71894B36E50E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{F52391C7-F7F9-40C1-8F47-2F83794A58B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{07DB8544-CC0F-4285-9628-71894B36E50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07DB8544-CC0F-4285-9628-71894B36E50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07DB8544-CC0F-4285-9628-71894B36E50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52391C7-F7F9-40C1-8F47-2F83794A58B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52391C7-F7F9-40C1-8F47-2F83794A58B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52391C7-F7F9-40C1-8F47-2F83794A58B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52391C7-F7F9-40C1-8F47-2F83794A58B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{AAB432DC-23E4-405E-AF5B-E015B14884CB} = {34EB71B6-6D38-4725-997C-DAE6647E7065}
 		{ECDFA8CF-6156-41EF-88FE-8006C69904D2} = {34EB71B6-6D38-4725-997C-DAE6647E7065}
 		{07DB8544-CC0F-4285-9628-71894B36E50E} = {34EB71B6-6D38-4725-997C-DAE6647E7065}
+		{F52391C7-F7F9-40C1-8F47-2F83794A58B5} = {34EB71B6-6D38-4725-997C-DAE6647E7065}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1771953B-FE32-4FBB-AF9A-C056BD632563}

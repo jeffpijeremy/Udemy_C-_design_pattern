@@ -20,8 +20,8 @@
         {
             return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
         }
-        public static Point Origin => new Point(0, 0);
-        public static Point Origin2 = new Point(0, 0);
+        //public static Point Origin => new Point(0, 0);
+        public static Point Origin2 = new Point(0, 0); // better 因為直接initial once in field
         //透過中間先做好一次靜態的實體化類別去給呼叫函式者做使用
         //public static PointFactory Factory => new PointFactory();
         public static class Factory
@@ -59,7 +59,7 @@
         {
             var point = Point.Factory.NewPolarPoint(1.0,Math.PI/2);
             Console.WriteLine(point);
-
+            var origin = Point.Origin2;
             
         }
     }
